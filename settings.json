@@ -1,15 +1,15 @@
 {
   "helius_api_key": "851d6c4a-e912-4958-93fa-65d7199f353d",
   "use_mock": false,
-  "theme": "Dark Green",
+  "theme": "Monokai",
   "alert_thresholds": {
-    "min_market_cap": 12000.0,
-    "max_market_cap": 51000.0,
-    "min_holders": 10.0,
-    "min_volume_5m": 2500.0,
-    "buy_sell_ratio": 1.5
+    "min_market_cap": 500,
+    "max_market_cap": 5000,
+    "min_holders": 1,
+    "min_volume_5m": 100,
+    "buy_sell_ratio": 1.0
   },
   "removal_threshold": {
-    "min_market_cap": 4000.0
+    "min_market_cap": 200
   }
 }
