@@ -1,7 +1,14 @@
 {
   "permissions": {
     "allow": [
-      "Bash(python -m py_compile:*)"
+      "Bash(python -m py_compile:*)",
+      "Bash(python main.py:*)",
+      "Bash(timeout /t 15 /nobreak)",
+      "Bash(ping:*)",
+      "Bash(python:*)",
+      "Bash(set PYTHONUNBUFFERED=1)",
+      "Bash(Start-Sleep -Seconds 4)",
+      "Bash(Get-Content \"C:\\\\Users\\\\matth\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\C--Users-matth-OneDrive-Desktop-sb64-1\\\\tasks\\\\b08d6f7.output\")"
     ]
   }
 }
